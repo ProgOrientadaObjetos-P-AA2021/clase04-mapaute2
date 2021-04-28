@@ -22,9 +22,6 @@ public class Ejecutor {
         
         Hospital hospital = new Hospital(nombre,ciudad,numeroDoctores,numeroEnfermeros);
         
-        System.out.printf("Los datos son:\nNombre: %s\nCiudad: %s\n"
-                + "Número Doctores: %d\nNúmero enfermeros: %d\n", hospital.obtenerNombre(),
-                hospital.obtenerCiudad(),hospital.obtenerNumeroDoctores(),hospital.obtenerNumeroEnfermeros());
- 
+        System.out.printf("%s\n",hospital);
     }
 }

@@ -61,4 +61,14 @@ public class Hospital {
         return numeroEnfermeros;
     }
     
+    public String toString(){
+        
+        String cadena = String.format("Los datos son:\n"
+                + "Nombre: %s\nCiudad: %s\nNúmero de Doctors: %d\n"
+                + "Número de enfermeras: %d\n",obtenerNombre(),
+                obtenerCiudad(),obtenerNumeroDoctores(),
+                obtenerNumeroEnfermeros());
+        
+        return cadena;
+    } 
 }
